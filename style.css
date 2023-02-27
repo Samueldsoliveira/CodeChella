@@ -1,0 +1,95 @@
+*{
+    margin: auto;
+}
+
+header{
+    background-color: #4650BD;
+    height: 96px;
+    margin: auto;
+}
+
+
+.container__header{ 
+    display: flex;
+    justify-content: space-between;
+    /*Retirar o display flex e justify content pra mobile*/
+    padding: 15px 0px;
+}
+
+.container__header ul:first-child{
+    padding: 0px 50px;
+}
+
+.container__header ul:last-child{
+    display: flex;
+    align-items: center;
+    padding-right: 9em;
+}
+
+.container__header ul li{
+    padding: 0px 1em;
+    
+}
+
+.style__contents-header{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration:none
+    
+}
+
+.style__contents-header a{
+    text-decoration: none;
+    color: white;
+}
+
+.container__main{
+    background-image: url(./imgs/Banner.png);
+    height: 407px;
+}
+
+.container__main h1{
+    text-align: center;
+    padding: 2em 3em;
+    font-family: Calistoga;
+    color: white;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.content__inside-background{
+    background-image: linear-gradient(to bottom, #4c6c81, #083263);
+    display: flex;
+}
+
+.content__inside-background img:first-child{
+    width: 150%;
+    padding: 4em 6em;
+}
+
+.contents__text{
+    color: white;
+    font-family: Inter;
+    font-size: 22px;
+    padding: 4em 90px 0px 15em;
+    text-align: center;
+}
+
+.contents__text li{
+    padding: 0.5em;
+}
+
+.contents__text li h2:first-child{
+    font-size: 32px;
+    padding: 0px 20px;
+    
+}
+
+.contents__text li:nth-child(2){
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
